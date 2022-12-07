@@ -13,4 +13,5 @@
     <color name="color_hint_text_input">#7a8089</color>
     <color name="color_btn_submit">#8338ec</color>
     <color name="color_text_option">#829460</color>
+    <color name="color_selected_option">#495579</color>
 </resources>
