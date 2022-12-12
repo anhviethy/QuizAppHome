@@ -2,6 +2,10 @@ package com.via.quizapphome
 
 object Constants {
 
+    const val USER_NAME = "user_name"
+    const val NUMS_CORRECT_ANS = "correct_ans"
+    const val TOTAL_QUESTION = "total_question"
+
     fun getQuestion() : ArrayList<Question>{
         val listQuestion = ArrayList<Question>()
         val ques1 = Question(

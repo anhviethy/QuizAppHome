@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
             if (etName!!.text.isEmpty()) {
                 Toast.makeText(this, "Please enter your name!", Toast.LENGTH_LONG).show()
             } else {
+                intent.putExtra(Constants.USER_NAME, etName?.text)
                 startActivity(intent)
             }
         }
